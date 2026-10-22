@@ -3,3 +3,6 @@ pandas
 numpy
 plotly
 """
+
+with open('requirements.txt', 'w') as f:
+    f.write(requirements_txt_code.strip())
